@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>吳老師 鴻運命理研究室 | 專業八字、環境布局、人生戰略顧問</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700;900&display=swap');
+        :root { 
+            --china-red: #b91c1c; 
+            --footer-red: #8b1313; 
+            --gold: #fbbf24; 
+            --ink: #18181b; 
+            --paper: #fffdfa; 
+        }
+        body { background-color: var(--paper); color: var(--ink); font-family: 'Noto Serif TC', serif; line-height: 1.8; scroll-behavior: smooth; }
+        .red-bg { background: linear-gradient(135deg, #b91c1c 0%, #7f1d1d 100%); border: 1px solid #fbbf24; }
+        .red-text { color: var(--china-red); }
+        .hero-pattern { background-color: #b91c1c; background-image: url("https://www.transparenttextures.com/patterns/p6.png"); color: white; }
+        .chinese-border { border: 2px solid var(--china-red); position: relative; padding: 2.5rem; }
+        .article-card { background: white; border: 1px solid #e5e7eb; transition: 0.3s; height: 100%; display: flex; flex-direction: column; overflow: hidden; }
+        .article-card:hover { transform: translateY(-5px); box-shadow: 0 15px 30px rgba(185, 28, 28, 0.1); }
+        .price-card { border: 1px solid #eee; background: white; transition: 0.3s; height: 100%; display: flex; flex-direction: column; }
+        .price-card:hover { border-color: var(--china-red); transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+        .btn-hover:hover { background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%); border-color: #fcd34d; transform: scale(1.05); }
+        .footer-bg { background-color: var(--footer-red); }
+    </style>
+</head>
+<body>
+
+    <nav class="bg-white shadow-md sticky top-0 z-50 border-b-2 border-red-700 px-6 py-4 flex justify-between items-center">
+        <div class="text-2xl font-black red-text tracking-tighter flex items-center">
+            <span class="bg-red-700 text-white px-2 py-1 mr-2 rounded shadow">吳</span>老師 · 命理實戰家
+        </div>
+        <div class="hidden lg:flex space-x-8 font-bold text-gray-700 text-sm tracking-widest">
+            <a href="#about" class="hover:text-red-700">關於老師</a>
+            <a href="#blog" class="hover:text-red-700">觀點專欄</a>
+            <a href="#prices" class="hover:text-red-700">服務價目</a>
+            <a href="#testimonials" class="hover:text-red-700">緣主反饋</a>
+        </div>
+        <a href="https://lin.ee/W0DX0OC" class="red-bg text-white px-6 py-2 rounded-full text-sm font-bold shadow-lg btn-hover transition text-center">立即預約</a>
+    </nav>
+
+    <header class="hero-pattern py-28 text-center border-b-8 border-yellow-500">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="mb-6 inline-block border-2 border-yellow-500 px-6 py-1 text-yellow-400 font-bold tracking-[0.4em]">實戰論命 · 數據驗證</div>
+            <h1 class="text-4xl md:text-7xl font-black mb-8 leading-tight text-white">知命而後布局<br><span class="text-yellow-400">有為而後亨通</span></h1>
+            <p class="text-lg md:text-2xl text-red-100 mb-12 opacity-90 italic">「十五年潛心鑽研案例，給您最誠實的人生建議。」</p>
+            <div class="flex flex-col md:flex-row justify-center gap-6">
+                <a href="#prices" class="bg-yellow-500 text-red-900 px-12 py-4 rounded-sm font-black text-xl hover:bg-yellow-400 transition shadow-2xl">立即批算八字</a>
+                <a href="#blog" class="border-2 border-white text-white px-12 py-4 rounded-sm font-bold text-xl hover:bg-white hover:text-red-700 transition">閱讀專家專欄</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="py-24 bg-white px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-16">
+            <div class="w-full md:w-1/3 relative text-center">
+                <div class="border-4 border-red-700 p-2 inline-block">
+                    <img src="wu-master.png" alt="吳老師" class="w-full max-w-sm h-auto grayscale hover:grayscale-0 transition duration-700">
+                </div>
+                <div class="absolute -bottom-6 -right-2 md:right-4 bg-red-700 text-white p-4 font-black text-2xl shadow-xl">吳老師</div>
+            </div>
+            <div class="w-full md:w-2/3 text-justify">
+                <h2 class="text-3xl font-black red-text mb-6 border-b-2 border-red-100 pb-4">實戰派民間高手：吳老師</h2>
+                <div class="space-y-6 text-gray-700 text-lg leading-loose">
+                    <p>
+                        吳老師是一位對命理邏輯懷抱極大熱忱的「數據派研究者」。在過去的 **十五年** 中，他將所有業餘時間投入到《八字推命》與《五行格局》的研究中，致力於將古老智慧轉化為現代生活的決策工具。
+                    </p>
+                    <p>
+                        在研究的前十年，吳老師始終保持低調，**免費為身邊的朋友及有緣人義務論命**。他不求回報，唯一的目的是累積大量的真實案例。從失敗的企業家、迷惘的職場人到創業青年，他分析了上千個命盤，只為了驗證命理規律在現代社會的適用性。
+                    </p>
+                    <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8 font-bold text-gray-800">
+                        <li><i class="fas fa-history red-text mr-2"></i> 15年不間斷案例研習</li>
+                        <li><i class="fas fa-users red-text mr-2"></i> 上千件義務論命實測</li>
+                        <li><i class="fas fa-eye red-text mr-2"></i> 洞悉現代商戰與職場局勢</li>
+                        <li><i class="fas fa-heart red-text mr-2"></i> 誠實批算，拒絕恐嚇營銷</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="py-24 bg-stone-100 px-6">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-4xl font-black red-text mb-4">觀點專欄 / 命理邏輯</h2>
+            <div class="h-1 w-24 bg-red-700 mx-auto mt-4 mb-16"></div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-justify">
+                <div class="article-card p-8">
+                    <span class="red-text text-xs font-bold tracking-widest">#職涯發展</span>
+                    <h4 class="text-xl font-black my-4">為什麼「興趣」可能是職涯陷阱？</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">「食傷」代表天賦與興趣，但「財星」才代表市場價值。如果八字財星無氣，僅憑興趣創業，最終只會耗盡資糧。吳老師主張：用喜用神選賽道，才是最省力的人生戰略。</p>
+                </div>
+                <div class="article-card p-8">
+                    <span class="red-text text-xs font-bold tracking-widest">#投資策略</span>
+                    <h4 class="text-xl font-black my-4">偏財格的人真的適合炒股嗎？</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">很多人以為有偏財就能投機，卻忽略了「身強身弱」的關鍵。身弱不勝財，大財入命反而可能是災難。投資前先看自己有無承載財富的格局，比看K線圖更重要。</p>
+                </div>
+                <div class="article-card p-8">
+                    <span class="red-text text-xs font-bold tracking-widest">#環境佈局</span>
+                    <h4 class="text-xl font-black my-4">真正的風水不需要昂貴法器</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">風水是環境心理學。陽宅三大要件：門、主、灶。只要採光充足、氣流順暢，就是好風水。透過八字喜用神微調室內色彩，才是最具科學根據的布局。</p>
+                </div>
+                <div class="article-card p-8">
+                    <span class="red-text text-xs font-bold tracking-widest">#兩性關係</span>
+                    <h4 class="text-xl font-black my-4">合婚是找「相處之道」，而非絕配</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">世上沒有天生絕配。合婚是看兩人的性格磨合點。看清了地支相刑的真相，你就能從「為什麼他不改」轉向「我該如何與他相處」，化解關係僵局。</p>
+                </div>
+                <div class="article-card p-8">
+                    <span class="red-text text-xs font-bold tracking-widest">#風險預警</span>
+                    <h4 class="text-xl font-black my-4">從八字看「訴訟風險」與避凶</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">流年遇「梟印奪食」或「官殺混雜」時，極易招惹口舌是非。這類年份應採取防禦姿態，合約審核需加倍小心，避免進入司法泥淖。</p>
+                </div>
+                <div class="article-card p-8">
+                    <span class="red-text text-xs font-bold tracking-widest">#育兒啟發</span>
+                    <h4 class="text-xl font-black my-4">嬰兒起名：補足先天的「氣」</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">起名不是找好聽的字，而是看五行缺失。名字是後天最好的符號，能微調性格的偏差，幫孩子在成長道路上走得更穩健。</p>
+                </div>
+                <div class="article-card p-8">
+                    <span class="red-text text-xs font-bold tracking-widest">#創業智慧</span>
+                    <h4 class="text-xl font-black my-4">合夥前，先看對方的「月令」</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">找合作夥伴不只要看能力，更要看命格是否互補。若兩人都命帶「劫財」，初期幹勁十足，後期必因利生隙，不可不防。</p>
+                </div>
+                <div class="article-card p-8">
+                    <span class="red-text text-xs font-bold tracking-widest">#身心能量</span>
+                    <h4 class="text-xl font-black my-4">五行失衡與慢性病的心理連結</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">土過旺者易思慮傷脾，水過旺者易焦慮傷腎。命盤是身體的預警系統，看清五行偏枯，能提前在生活中透過作息來截彎取直。</p>
+                </div>
+                <div class="article-card p-8">
+                    <span class="red-text text-xs font-bold tracking-widest">#人生戰略</span>
+                    <h4 class="text-xl font-black my-4">改運不是改命，而是改「選擇」</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">命是劇本，運是演員。在不好的大運裡選擇沈潛學習，在好的流年裡重拳出擊，這就是改運。最好的轉運法，就是改變認知與行為。</p>
+                </div>
+                <div class="article-card p-8">
+                    <span class="red-text text-xs font-bold tracking-widest">#職場生存</span>
+                    <h4 class="text-xl font-black my-4">命帶「七殺」的人：如何駕馭你的野心？</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">七殺代表果斷與權威，但也伴隨壓力。駕馭得好是將軍，駕馭不好則易招小人。吳老師教你如何透過平衡身心能量。</p>
+                </div>
+                <div class="article-card p-8">
+                    <span class="red-text text-xs font-bold tracking-widest">#財富密碼</span>
+                    <h4 class="text-xl font-black my-4">你的命盤裡有「財庫」嗎？守財比賺錢更難</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">有財無庫，錢財如流水。八字中的「墓庫」決定了你的累積能力。了解開啟時機，能幫你從盲目賺錢轉向智慧理財。</p>
+                </div>
+                <div class="article-card p-8">
+                    <span class="red-text text-xs font-bold tracking-widest">#玄學真相</span>
+                    <h4 class="text-xl font-black my-4">為什麼農民曆的吉日對你不一定有效？</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">農民曆是通用規律，擇日應以人為本。大吉之日若與你八字相沖，反而招致意外。有效的擇日，必須以命盤出發。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="prices" class="py-24 bg-white px-6">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-4xl font-black red-text mb-4">服務價目</h2>
+            <div class="h-1 w-24 bg-red-700 mx-auto mt-4 mb-16"></div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="price-card p-8 rounded shadow-sm border-t-4 border-t-red-700 text-justify">
+                    <h3 class="text-xl font-black mb-4">個人本命精批</h3>
+                    <ul class="text-gray-600 text-xs space-y-3 mb-8 flex-grow">
+                        <li><i class="fas fa-check red-text mr-2"></i>五行格局深度解析</li>
+                        <li><i class="fas fa-check red-text mr-2"></i>核心性格與天賦建議</li>
+                    </ul>
+                    <div class="text-2xl font-black red-text mb-6 text-center">NT$ 1,600</div>
+                    <a href="https://lin.ee/W0DX0OC" class="block py-2 red-bg text-white text-sm font-bold rounded shadow-lg btn-hover text-center">預約諮詢</a>
+                </div>
+                <div class="price-card p-8 rounded shadow-sm border-t-4 border-t-red-700 text-justify">
+                    <h3 class="text-xl font-black mb-4">流年/流月大計</h3>
+                    <ul class="text-gray-600 text-xs space-y-3 mb-8 flex-grow">
+                        <li><i class="fas fa-check red-text mr-2"></i>未來 12 個月運勢起伏</li>
+                        <li><i class="fas fa-check red-text mr-2"></i>風險預判與機會把握</li>
+                    </ul>
+                    <div class="text-2xl font-black red-text mb-6 text-center">NT$ 2,200</div>
+                    <a href="https://lin.ee/W0DX0OC" class="block py-2 red-bg text-white text-sm font-bold rounded shadow-lg btn-hover text-center">預約諮詢</a>
+                </div>
+                <div class="price-card p-8 rounded shadow-sm border-t-4 border-t-red-700 text-justify">
+                    <h3 class="text-xl font-black mb-4">八字命名服務</h3>
+                    <ul class="text-gray-600 text-xs space-y-3 mb-8 flex-grow">
+                        <li><i class="fas fa-check red-text mr-2"></i>補足八字五行缺憾</li>
+                        <li><i class="fas fa-check red-text mr-2"></i>精選 6 組好名建議</li>
+                    </ul>
+                    <div class="text-2xl font-black red-text mb-6 text-center">NT$ 2,800</div>
+                    <a href="https://lin.ee/W0DX0OC" class="block py-2 red-bg text-white text-sm font-bold rounded shadow-lg btn-hover text-center">預約諮詢</a>
+                </div>
+                <div class="price-card p-8 rounded shadow-sm border-t-4 border-t-red-700 text-justify bg-stone-50">
+                    <h3 class="text-xl font-black mb-4">客製化專案</h3>
+                    <ul class="text-gray-600 text-xs space-y-3 mb-8 flex-grow">
+                        <li><i class="fas fa-check red-text mr-2"></i>公司選址、品牌命名</li>
+                        <li><i class="fas fa-check red-text mr-2"></i>合夥與婚姻專項諮詢</li>
+                    </ul>
+                    <div class="text-2xl font-black red-text mb-6 text-center tracking-tight">價格另議</div>
+                    <a href="https://lin.ee/W0DX0OC" class="block py-2 red-bg text-white text-sm font-bold rounded shadow-lg btn-hover text-center">預約諮詢</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="py-24 bg-stone-100 px-6">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-4xl font-black red-text mb-4">緣主反饋 / 實測見證</h2>
+            <div class="h-1 w-24 bg-red-700 mx-auto mt-4 mb-16"></div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-justify">
+                <div class="p-6 border border-red-100 bg-white rounded shadow-sm text-sm">
+                    <p class="text-gray-700 mb-4">「本來不信命理，但老師點出我『財多身弱』避開資金斷裂風險。實戰派真的不同！」</p>
+                    <p class="font-bold text-red-900">— 林老闆 (五金商)</p>
+                </div>
+                <div class="p-6 border border-red-100 bg-white rounded shadow-sm text-sm">
+                    <p class="text-gray-700 mb-4">「分析孩子八字後換了教育方式後孩子變開朗了，謝謝老師。」</p>
+                    <p class="font-bold text-red-900">— 孫媽媽 (家庭主婦)</p>
+                </div>
+                <div class="p-6 border border-red-100 bg-white rounded shadow-sm text-sm">
+                    <p class="text-gray-700 mb-4">「老師邏輯清晰不會說聽不懂的玄學，以前免費時期就找過，內容非常詳盡。」</p>
+                    <p class="font-bold text-red-900">— 張先生 (分析師)</p>
+                </div>
+                <div class="p-6 border border-red-100 bg-white rounded shadow-sm text-sm">
+                    <p class="text-gray-700 mb-4">「身為房仲，老師建議今年的業務應朝北發展試了兩個月業績真的翻倍。」</p>
+                    <p class="font-bold text-red-900">— 王小姐 (房仲)</p>
+                </div>
+                <div class="p-6 border border-red-100 bg-white rounded shadow-sm text-sm">
+                    <p class="text-gray-700 mb-4">「婚姻面臨崩潰透過老師分析學會避讓，現在關係和緩許多。」</p>
+                    <p class="font-bold text-red-900">— 雅雅 (美容師)</p>
+                </div>
+                <div class="p-6 border border-red-100 bg-white rounded shadow-sm text-sm">
+                    <p class="text-gray-700 mb-4">「老師建議我這兩年不宜創業，強行投資果然慘賠，老師真的看得很準。」</p>
+                    <p class="font-bold text-red-900">— 趙先生 (餐飲主廚)</p>
+                </div>
+                <div class="p-6 border border-red-100 bg-white rounded shadow-sm text-sm">
+                    <p class="text-gray-700 mb-4">「在老師的擇日下簽約異常順利，推薦給需要重大決策的朋友。」</p>
+                    <p class="font-bold text-red-900">— K先生 (外商主管)</p>
+                </div>
+                <div class="p-6 border border-red-100 bg-white rounded shadow-sm text-sm">
+                    <p class="text-gray-700 mb-4">「新生兒改名後孩子睡得安穩全家人鬆了一口氣。」</p>
+                    <p class="font-bold text-red-900">— 黃爸爸 (工程師)</p>
+                </div>
+                <div class="p-6 border border-red-100 bg-white rounded shadow-sm text-sm">
+                    <p class="text-gray-700 mb-4">「老師幫我排了流年讓我知道何時衝刺何時守成，幫助很大。」</p>
+                    <p class="font-bold text-red-900">— 李先生 (保險顧問)</p>
+                </div>
+                <div class="p-6 border border-red-100 bg-white rounded shadow-sm text-sm">
+                    <p class="text-gray-700 mb-4">「投資副業前請老師代算夥伴八字，老師提醒對方心性不定，果然三個月後撤資，好在沒虧。」</p>
+                    <p class="font-bold text-red-900">— 郭小姐 (電商業者)</p>
+                </div>
+                <div class="p-6 border border-red-100 bg-white rounded shadow-sm text-sm">
+                    <p class="text-gray-700 mb-4">「主管打壓想離職，老師算出年底有轉機。下個月主管就調走，我也順利升職。」</p>
+                    <p class="font-bold text-red-900">— 陳先生 (公務員)</p>
+                </div>
+                <div class="p-6 border border-red-100 bg-white rounded shadow-sm text-sm">
+                    <p class="text-gray-700 mb-4">「最理性的命理老師，用邏輯分析性格缺陷，幫我人生格局提升了一個層次。」</p>
+                    <p class="font-bold text-red-900">— 蘇博士 (教授)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-bg text-red-50 py-16 px-6 border-t-8 border-yellow-500 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-5 pointer-events-none" style="background-image: url('https://www.transparenttextures.com/patterns/stardust.png');"></div>
+        <div class="max-w-6xl mx-auto relative z-10">
+            <div class="grid md:grid-cols-3 gap-12 mb-16 text-sm">
+                <div>
+                    <h4 class="text-white font-black mb-6 text-xl border-l-4 border-yellow-500 pl-3 uppercase">聯絡與服務</h4>
+                    <ul class="space-y-4 font-bold">
+                        <li><i class="fas fa-envelope text-yellow-400 mr-2"></i> 客服信箱：teacherwu@gmail.com</li>
+                        <li><i class="fas fa-clock text-yellow-400 mr-2"></i> 客服時間：週一至週五 10:00 - 18:00</li>
+                        <li><i class="fas fa-map-marker-alt text-yellow-400 mr-2"></i> 桃園市平鎮區（預約制面談）</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-black mb-6 text-xl border-l-4 border-yellow-500 pl-3 uppercase">服務與退款政策</h4>
+                    <div class="space-y-4 leading-relaxed font-bold">
+                        <p>● 命理諮詢屬個人化勞務給付，自老師開始排盤解析後，恕不接受退款申請。</p>
+                        <p>● 預約後如需變更時間，請於 24 小時前通知助理。</p>
+                        <p>● 本站提供之建議僅供人生參考，最終決策權仍歸屬緣主本人。</p>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-white font-black mb-6 text-xl border-l-4 border-yellow-500 pl-3 uppercase">隱私權與商家資訊</h4>
+                    <div class="space-y-4 leading-relaxed font-bold">
+                        <p>● 商家名稱：吳老師鴻運命理研究室</p>
+                        <p>● 隱私聲明：您提供的生辰資訊僅用於排盤分析，工作室嚴格遵守隱私法規，絕不外洩。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="h-px bg-white/20 w-full mb-12"></div>
+
+            <div class="text-center">
+                <h4 class="text-3xl md:text-4xl font-black text-white mb-8 tracking-[0.2em] font-serif uppercase">
+                    吳老師 <span class="text-yellow-500">鴻運命理研究室</span>
+                </h4>
+                <div class="flex flex-col md:flex-row justify-center items-center gap-6 mb-10">
+                    <div class="flex items-center bg-red-900/50 px-6 py-3 rounded-full border border-red-400/30 shadow-inner">
+                        <i class="fas fa-phone-alt text-yellow-500 mr-3"></i>
+                        <span class="text-white font-bold tracking-wider">預約專線：0988-390-527</span>
+                    </div>
+                    <div class="flex items-center bg-red-900/50 px-6 py-3 rounded-full border border-red-400/30 shadow-inner">
+                        <i class="fab fa-line text-green-400 mr-3 text-xl"></i>
+                        <span class="text-white font-bold tracking-wider">LINE 客服：@258lnjhq</span>
+                    </div>
+                </div>
+                <p class="text-xs tracking-[0.3em] uppercase opacity-60 text-white font-bold">
+                    © 2026 TEACHER WU BAZI STRATEGY. ALL RIGHTS RESERVED. 祝 緣主萬事亨通
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
